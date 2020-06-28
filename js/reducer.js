@@ -13,3 +13,7 @@
       state = changeState(state, action)
       return state
     }
+    
+function render(){
+  document.body.textContent = state.count
+}
